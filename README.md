@@ -38,12 +38,7 @@ It serves as the gateway for students to explore course details, watch demo cont
 
     Anyone looking to learn creative software in regional language
 
-👨‍🏫 About the Instructor
 
-This platform is guided by Shri Atul Bhoyar, a respected trainer with 20+ years of experience in the design and media industry. His goal is to make world-class design education accessible, practical, and affordable for regional learners.
-📞 Contact & Support
-
-Have questions? Reach out directly on WhatsApp: +91 9689912250
 💻 Tech Stack (for developers)
 
     HTML5 / CSS3 / JavaScript
