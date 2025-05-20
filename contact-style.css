@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1.5px solid rgb(219, 219, 219);
+    padding: 5px;
+}
+
+.brand-name h4 {
+    color: #E44501;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-logo {
+    height: 85px;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.header-logo img {
+    height: 79px;
+    margin: 5px;
+
+}
+
+.nav-bar {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    background-color: #ffffff;
+    position : sticky;
+	top:0;
+
+}
+
+.links li {
+    display: inline-block;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.links li a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600.9;
+}
+.links li a:hover{
+    color: #f44c04;
+    transition: 0.3s;
+}
+.links li a:active{
+    color:#f44c04;
+
+}
+.contact-gray-box{
+    
+    background-color: #2b2b2b;
+    height: 483px;
+    width: 100%;
+}
+.first-column{
+    margin: 40px 12px 30px 80px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: none;
+
+}
+.form-data-container{
+    padding: 40px 15px 15px 15px;
+}
+.form-data-container input{
+    background-color:white;
+    color: black;
+    font-family: noto sans;
+    font-size: 17px;
+    border:none;
+    border-radius: 5px;
+    width:350px ;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+#email{
+    background-color:white;
+    color: black;
+    font-family: noto sans;
+    font-size: 17px;
+    border:none;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+#mobile{
+    background-color:white;
+    color: black;
+    font-family: noto sans;
+    font-size: 17px;
+    border:none;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    padding-left: 25px;
+    margin-top: 10px;
+    align-items: center;
+}
+.form-data-container textarea{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: noto sans;
+    font-size: 17px;
+    width: 350px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.form-data-container  h3{
+    font-family: poppins;
+    color: white;
+    padding-bottom: 0px;
+}
+.form-data-container button{
+    width: 370px;
+    height: 40px;
+    background-color: rgb(196, 5, 5);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-top:  10px;
+
+
+}
+.second-column{
+    margin: 40px 12px 30px 0px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: none;
+    position: absolute;
+    
+}
+.second-column-data-container{
+    padding: 20px 15px 15px 40px;
+}
+.second-column img{
+    width: 120px;
+}
+.address{
+    width: 108px;
+    padding-top: 20px;
+    color: rgb(223, 220, 220);
+    font-size: 14px;
+    font-family: noto sans;
+}
+.mobile{
+    width: 206px;
+    padding-top: 20px;
+    color: rgb(223, 220, 220);
+    font-size: 14px;
+    font-family: noto sans;   
+}
+.copyright{
+    width: 341px;
+    padding-top: 57px;
+    color: rgb(223, 220, 220);
+    font-size: 14px;
+    font-family: noto sans;  
+}
+.third-column{
+    margin: 40px 12px 0px 00px;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: none;
+    position: absolute;
+    right: 80px;
+    
+}
+.third-column-data-container{
+    padding: 20px 15px 15px 40px;
+}
+.third-column-data-container h3{
+    font-family: poppins;
+    padding-bottom: 10px;
+    color: white;
+}
+.links-container a{
+    text-align: none;
+    color: rgb(154, 153, 153);
+    display: block;
+    text-decoration: none;
+    font-family: noto sans;
+    font-size: 0.9rem;
+    padding-top: 7px;
+}
+.links-container a:hover{
+    color: rgb(231, 229, 229);
+    transition: 1s;
+}
+.social-platforms img{
+    width: 100px;
+    padding-top: 20px;
+}
+/* .circle-one{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3b5998;
+    color: rgb(255, 255, 255);
+    position
+}
+.circle-one img{
+width: 80px;
+padding-top:20px;
+} */
+.footerbox{
+    height: 60px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 80px;
+}
+.footerbox p{
+    font-family: poppins;
+    font-size: 16px;
+    color: rgb(170, 169, 169);
+    text-align: center;
+    padding-top: 15px;
+}
